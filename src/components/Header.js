@@ -1,13 +1,10 @@
-function Header(props)  {
-
-
+const Header = () => {
     return (
-        <div>
-          <img src={props.src} width={props.width} height={props.height} />
+       <div className="header">
+            <h1>Movies Review</h1>
             </div>
-      )
-    }
-    
+       
+    )
+}
 
- 
 export default Header
